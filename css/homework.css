@@ -1,0 +1,356 @@
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .wraper {
+            /* display: flex; */
+            /* background-color: aqua; */
+            width: 100%;
+            min-width: 980px;
+            height: 1800px;
+
+        }
+
+        .head {
+            position: relative;
+            background-color: rgb(82, 42, 92);
+            width: 100%;
+            height: 4%;
+            text-align: right;
+        }
+
+        .head .head-logo {
+            position: absolute;
+            width: 150px;
+            height: 50px;
+            top: 20px;
+            left: 10%;
+        }
+
+        .head .head-logo img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .head .head-nav {
+            position: absolute;
+            width: 200px;
+            height: 50px;
+            right: 10%;
+            top: 50px;
+            display: flex;
+            justify-content: space-between;
+            font-size: 8px;
+            color: white;
+        }
+
+        .head .head-nav span {
+            display: block;
+        }
+
+        .head .head-cat {
+            position: absolute;
+            right: 10px;
+            top: 35px;
+        }
+
+        .background-wall {
+
+            background-size: 100% 100%;
+            width: 100%;
+            height: 24%;
+            /* background-image: linear-gradient(to top, rgba(255, 255, 255, 0.1) 70%, rgba(255, 255, 255, 0) 100%); */
+            /* opacity: 0.8; */
+            overflow: hidden;
+            position: relative;
+        }
+
+        .background-wall img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .background-wall ul {
+            /* background-image: linear-gradient(to top, rgba(255, 255, 255, 0.1) 70%, rgba(255, 255, 255, 0) 100%); */
+            width: 100%;
+            height: 100%;
+        }
+        .background-wall ul {
+            width: 601%;
+            height: 100%;
+            position: absolute;
+            top: -50px;
+            list-style: none;
+        }
+
+        .background-wall ul li {
+            width: 16.64%;
+            height: 100%;
+            float: left;
+        }
+
+        /* .background-wall .jiantou {
+            background-color: aqua;
+            width: 100%;
+            height: 20%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        } */
+        .background-wall .left-jiantou{
+            width: 3%;
+            height: 30%;
+            position: absolute;
+            left: 0px;
+            top: 30%;
+            opacity: 0.2;
+        }
+        .background-wall .right-jiantou{
+            width: 3%;
+            height: 30%;
+            position: absolute;
+            right: 0px;
+            top: 30%;
+            opacity: 0.2;
+        }
+        .background-wall .lunbo-tex{
+            position: absolute;
+            width: 28%;
+            height: 30%;
+            /* background-color: aliceblue; */
+            /* background-color: white; */
+            top:60%;
+            right: 10%;
+            border-radius: 2%;
+            /* opacity: 0.3; */
+            font-size: 12px;
+            line-height: 20px;
+            /* background-color: rgba(255,255,255,0.3); */
+            background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.7),rgba(255,255,255,0.5)75%, rgba(255, 255, 255, 0));
+        }
+        .background-wall .lunbo p{
+            inherits: false;
+        }
+
+        .photo {
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(238, 238, 238);
+            width: 100%;
+            height: 26%;
+        }
+
+        .photo .box {
+            /* width: 280px; */
+            width: 25%;
+            height: 300px;
+            background-color: white;
+            margin-top: 20px;
+            flex-shrink: 0;
+        }
+
+        .photo .box1 {
+            margin-left: 10%;
+            margin-right: 10px;
+        }
+
+        .photo .box3 {
+            margin-right: 10%;
+            margin-left: 10px;
+        }
+
+        .photo .pto1,
+        .pto2,
+        .pto3 {
+            width: 95%;
+            height: 50%;
+            margin: 7px 7px;
+            /* overflow: hidden; */
+        }
+
+        .photo .pto img {
+            width: 100%;
+            height: 100%;
+            transition: all 0.2s;
+        }
+
+        .photo img:hover {
+            border-radius: 5%;
+            transform: scale(1.2);
+        }
+
+        .photo .text1,
+        .text2,
+        .text3 {
+            width: 95%;
+            /* height: 40%; */
+            margin: 7px 7px;
+            /* background-color: aquamarine; */
+            font-family: '宋体';
+            font-size: 6px;
+            text-indent: 14px;
+            line-height: 20px;
+        }
+
+        .introduce {
+            position: relative;
+            background-color: rgb(255, 255, 255);
+            width: 100%;
+            height: 25%;
+        }
+
+        .introduce .touxiang {
+            position: absolute;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            left: 47%;
+            top: -60px;
+            /* overflow: hidden; */
+        }
+
+        .introduce .touxiang img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            transition: all 0.2s;
+        }
+
+        .introduce .touxiang img {
+            width: 100%;
+            height: 100%;
+            transition: all 0.2s;
+        }
+
+        .introduce .touxiang img:hover {
+            transform: scale(1.3);
+        }
+
+        .introduce p {
+            position: absolute;
+            width: 200px;
+            height: 30px;
+            /* background-color: aqua; */
+            /* margin: 0px auto; */
+            top: 100px;
+            left: 44%;
+            font-weight: 200;
+            letter-spacing: 4px;
+            text-indent: 2em;
+        }
+
+        .introduce .personal-intro p {
+            position: absolute;
+            resize: none;
+            width: 400px;
+            top: 150px;
+            left: 38%;
+            font-weight: 300;
+            letter-spacing: 3px;
+            font-size: 8px;
+            line-height: 20px;
+        }
+
+        .footer {
+            background-color: rgb(0, 0, 0);
+            width: 100%;
+            height: 21%;
+            position: relative;
+        }
+
+        .footer .footer-nav {
+            width: 200px;
+            height: 30px;
+            /* background-color: aliceblue; */
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            right: 0px;
+            /* bottom: 0px; */
+            margin: auto;
+            float: left;
+            display: flex;
+            justify-content: space-between;
+            font-size: 6px;
+            color: white;
+            line-height: 30px;
+        }
+
+        .footer .footer-link {
+            position: absolute;
+            width: 70%;
+            border-top: 1px solid rgb(50, 50, 50);
+            height: 100px;
+            top: 30px;
+            left: 150px;
+            /* background-color: aliceblue; */
+            display: flex;
+            justify-content: space-around;
+        }
+
+        
+        ul {
+            margin-top: 50px;
+            font-weight: 300;
+            /* position: absolute; */
+        }
+        /* .footer .footer-link ul:nth-child(1){
+            left: 200px;
+        }
+        .footer .footer-link ul:nth-child(5){
+            margin-right: 200px;
+        } */
+        li {
+            font-size: 12px;
+            line-height: 25px;
+            list-style: none;
+        }
+
+        li:first-child {
+            font-size: 16px;
+            margin-bottom: 15px;
+            /* background-color: aliceblue; */
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover {
+            color: red;
+        }
+
+        a:focus {
+            color: orange;
+        }
+
+        ul>li:nth-child(3)>a {
+            text-decoration: underline;
+        }
+
+        .cat {
+            position: absolute;
+            width: 15px;
+            height: 40px;
+            left: 0px;
+            /* top: 0px; */
+            right: 0px;
+            bottom: 0px;
+            margin: auto;
+        }
+        .banquan{
+            position: absolute;
+            color: white;
+            font-size: 12px;
+            /* top: 0px;
+            left: 0px;
+            right: 0px;
+            bottom: 0px; */
+            /* margin: auto; */
+            top: 310px;
+            left: 48.59%;
+        }
+    
